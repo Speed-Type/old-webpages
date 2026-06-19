@@ -1,0 +1,92 @@
+<!--On my honor as a student, I have neither given nor received any unauthorized aid on this assignment.-->
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>ROCK PAPER SCISSORS 2.0</title>
+        <link href = "RockPaperScissorsStyles.css" rel = "stylesheet" type = "text/css">
+
+    </head>
+
+    <body>
+
+        <div class="container-inside-margins">
+
+            <h1>Rock Paper Scissors 2.0</h1>
+
+            <!--Game Setup-->
+            <div id = "setupMenu">
+    
+                <table>
+
+                    <tr>
+
+                        <caption><h2>Setup</h2></caption>
+    
+                    </tr>
+
+                    <tr>
+
+                        <th>
+
+                            <div id = "roundInput">
+
+                                <div class = "centerContainer">
+            
+                                    <label for = "rounds">Number of Rounds: </label>
+                                    <input id = "rounds" type = "text" value = "" placeholder = "Enter number of rounds here">
+                                    <br><br>
+                                    <button id="startButton">Start</button>
+            
+                                </div>
+            
+                            </div>
+
+                        </th>
+
+                    </tr>
+
+                </table>
+                
+
+    
+            </div>
+    
+            <!--What the player sees after a round-->
+            <div id = "gameMenu">
+    
+                <h2 id = "roundDisplay">Round 1</h2>
+                <img src="QuestionMark.jpg" alt="Player's choice" id="playerImage">
+                <img src="QuestionMark.jpg" alt="Computer's choice" id="computerImage">
+                <br><br>
+                <div class = "centerContainer">
+
+                    <label id = "playerChoiceLabel" for = "playerChoice">What will you play? </label>
+                    <input id = "playerChoice" type = "text" value = "" placeholder = "Enter action here">
+                    <br><br>
+                    <button id="doAction">Go!</button>
+                    <div class = "scoreCount" id = "scoreCountPlayer">Player Wins: 0</div>
+                    <div class = "scoreCount" id = "scoreCountComputer">Computer Wins: 0</div>
+                    <div class = "scoreCount" id = "scoreCountTies">Ties: 0</div>
+                    <br>
+                    <div id = "endMessage">EndMessage</div>
+                    <button id="replayButton">Play again?</button>
+
+                </div>
+                
+            </div>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        </div>
+
+        <script src = "RockPaperScissorsScript.js"></script>
+
+        <!--CHECKLIST: add different types of moves, add delay to moves being made-->
+
+    </body>
+
+</html>
